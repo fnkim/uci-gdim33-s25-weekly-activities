@@ -19,7 +19,8 @@ Refer back to the slides for examples of break-downs.
 In your Devlog, attach your break-down.
 
 1. My game idea is a visual novel. The gameplay will involve making decisions that change the story.
-2. <img width="1000" height="600" alt="gdim 33 board" src="https://github.com/user-attachments/assets/0d3a5330-37da-4be0-8381-30bedca57966" />
+2. Breakdown flowchart
+![Untitled drawing](https://github.com/user-attachments/assets/5537764d-bc58-4530-ac7e-44cfe381883f)
 
 
 ## W2
