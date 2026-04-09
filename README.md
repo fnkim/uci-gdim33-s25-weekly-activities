@@ -24,6 +24,4 @@ In your Devlog, attach your break-down.
 
 
 ## W2
-Write your W2 Devlog here.
-
-Continue adding additional headers below this one for future weeks and future activities.
+[link to push](https://github.com/UCI-GDIM33/uci-gdim33-s25-weekly-activities-GDIM33Activities/commit/4a630c85723ede07d9f75d1d6c808837489d7e5f)
