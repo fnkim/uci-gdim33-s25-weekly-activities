@@ -28,5 +28,5 @@ In your Devlog, attach your break-down.
 
 ## W3
 ### Activity 1
-<img width="600" height="320" alt="breakdown (1)" src="https://github.com/user-attachments/assets/826ada3b-8548-45fe-862f-94a323135043" />
+<img width="900" height="600" alt="breakdown (1)" src="https://github.com/user-attachments/assets/826ada3b-8548-45fe-862f-94a323135043" />
 
