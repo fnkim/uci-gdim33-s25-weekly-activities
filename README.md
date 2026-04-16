@@ -30,3 +30,9 @@ In your Devlog, attach your break-down.
 ### Activity 1
 <img width="900" height="600" alt="breakdown (1)" src="https://github.com/user-attachments/assets/826ada3b-8548-45fe-862f-94a323135043" />
 
+
+### Activity 2
+1. It's good to save the event name for the explore-to-dialogue state as a Scene variable because that allows you to reference the event easily across different script machines.
+2. Using the Debug.Log() node helped me understand whether transitions were firing. My first Debug.Log() in WalrusW3 played after everything on the OnMouseDown, which meant it showed the message "AHHH" each time I clicked on the walrus. However, I was able to understand that my transitions were not working because my Debug.Log() message, "transition triggered", that was supposed to print after the game state changed from explore to dialogue, didn't print. This told me that the transition itself wasn't working, not that the problem was in specifically showing the UI or anything like that.
+3. The Set Cursor Lock state is not really relevant to my Vertical Slice because I do not have a free camera exploration portion of my game; it is all visual novel/dialogue.
+4. The concept of a "game state" is relevant to my Vertical Slice because there will be different screens such as choice menus or dialogue menus that are meant to be interacted with differently.
