@@ -25,3 +25,8 @@ In your Devlog, attach your break-down.
 
 ## W2
 [link to push](https://github.com/UCI-GDIM33/uci-gdim33-s25-weekly-activities-GDIM33Activities/commit/4a630c85723ede07d9f75d1d6c808837489d7e5f)
+
+## W3
+### Activity 1
+<img width="400" height="260" alt="breakdown (1)" src="https://github.com/user-attachments/assets/826ada3b-8548-45fe-862f-94a323135043" />
+
