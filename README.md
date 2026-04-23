@@ -49,4 +49,15 @@ Landon Her, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Jess Tran, and me (Fran
 Playtesting notes: The clicking is intuitive, but they didn't know about the spacebar functionality. Also, it might be better to show the dialogue box still when the choices are up rather than hiding it.
 
 ### Activity 2
+Assuming this activity is completed by a programmer, could a writer add more dialogue to this setup without writing any code? Why or why not?
+What limit is there to the number of dialogue nodes that the writer could create without writing any code?
+In your own words, describe the purpose of the "Regenerate Nodes" button.
+
+1. Assuming this activity is completed by a programmer, it is easy for a writer to add more dialogue to this setup without coding because the dialogue is added via ScriptableObjects, making the system scalable and easy to design.
+2. There is no limit to the number of dialogue nodes the writer can create without writing any code, since they can keep creating ScriptableObject assets (DialogueNodes).
+3. The purpose of the "Regenerate Nodes" button is to update the node system to contain new nodes that are added via code, or removing them. It basically refreshes the system.
+Bonus point:
+<img width="1326" height="744" alt="image" src="https://github.com/user-attachments/assets/f9b5f820-f031-4c38-b76f-e341311c9937" />
+This image shows up when you click certain options. You can drag in a new sprite to change the image for different dialogue nodes if you want!
+
 
