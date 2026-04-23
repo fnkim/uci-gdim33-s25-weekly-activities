@@ -36,3 +36,17 @@ In your Devlog, attach your break-down.
 2. Using the Debug.Log() node helped me understand whether transitions were firing. My first Debug.Log() in WalrusW3 played after everything on the OnMouseDown, which meant it showed the message "AHHH" each time I clicked on the walrus. However, I was able to understand that my transitions were not working because my Debug.Log() message, "transition triggered", that was supposed to print after the game state changed from explore to dialogue, didn't print. This told me that the transition itself wasn't working, not that the problem was in specifically showing the UI or anything like that.
 3. The Set Cursor Lock state is not really relevant to my Vertical Slice because I do not have a free camera exploration portion of my game; it is all visual novel/dialogue.
 4. The concept of a "game state" is relevant to my Vertical Slice because there will be different screens such as choice menus or dialogue menus that are meant to be interacted with differently.
+
+## W4
+### Activity 1
+Currently, my build includes dialogue that you can click through, a typewriter effect, a sprite with changing expressions and fade in/out functionality, and choices that lead to different dialogue. My playtesting goal is to check whether controls (clicking/pressing space) are intuitive or not.
+
+
+Team:
+Landon Her, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Jess Tran, and me (Frances Kim)
+
+
+Playtesting notes: The clicking is intuitive, but they didn't know about the spacebar functionality. Also, it might be better to show the dialogue box still when the choices are up rather than hiding it.
+
+### Activity 2
+
