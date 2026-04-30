@@ -64,16 +64,16 @@ This image shows up when you click certain options. You can drag in a new sprite
 ### Activity 1
 
 1. Implement phase 1 for the midday state of the game, a clicking minigame where you try to cut down trees before a timer runs out.
-a. Implement a timer that starts when entering the midday state and goes down over time. Use a Debug Log to print the timer going down.
-b. Create a minigame where clicking on a button whacks a tree with an axe. Use a Debug Log to print how many times you clicked.
-c. When the timer runs out, stop the clicking minigame and, based on how many times you whacked the trees, give a certain amount of money
-d. Move onto phase 2 of the midday state, a shopping section (which will not be implemented yet).
+- Implement a timer that starts when entering the midday state and goes down over time. Use a Debug Log to print the timer going down.
+- Create a minigame where clicking on a button whacks a tree with an axe. Use a Debug Log to print how many times you clicked.
+- When the timer runs out, stop the clicking minigame and, based on how many times you whacked the trees, give a certain amount of money
+- Move onto phase 2 of the midday state, a shopping section (which will not be implemented yet).
 
-2. Implement Visuals
-a. Show the timer and the number going down over time in the UI
-b. Create another UI element that shows the whack number going up
-c. When the timer runs out, clear the clicking button and show a UI element that shows how much money you earned
-d. Change the screen to phase 2, swapping the background
+3. Implement Visuals
+- Show the timer and the number going down over time in the UI
+- Create another UI element that shows the whack number going up
+- When the timer runs out, clear the clicking button and show a UI element that shows how much money you earned
+- Change the screen to phase 2, swapping the background
 
 
 
