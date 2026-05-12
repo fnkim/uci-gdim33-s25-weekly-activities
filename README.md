@@ -76,3 +76,21 @@ This image shows up when you click certain options. You can drag in a new sprite
 ### Activity 2
 Today I accomplished creating a very ugly version of the money making minigame. I have a working UI and timer, the money clicking button works and its incrementing is shown in the UI. Once the timer ends, the clicking button is removed, and the game ends and the money earned today is calculated and put on the screen. I believe I have implemented every step as outlined in activity 1.
 
+## W6
+### Activity 1
+what is NEW in your build since your Milestone 1 submission,
+a link to your Itch page, AND
+your playtesting goal(s).
+Put your playtesting notes in your Devlog.
+
+Since my Milestone 1 submission, I have added animation to the NPC character as well as different game states for the different times of day. [The link is here.](https://fnkim.itch.io/milestone-2-gdim-33) My playtesting goal is mainly about visuals, and I will ask my playtesters to evaluate the art and presentation of the game.
+
+Playtesting notes: The visuals look good, although there is some odd sharp edges on the sprites that could be solved with anti-aliasing. There is also a sliver of the hair that parts from the head during the animation.
+
+### Activity 2
+1. The Multiply setting of the Blend node makes the resulting color darker and less saturated because it changes the color RGB values to be closer to black than the input. Since black is represented by 0, multiplying the RGB values with a number less than 1 (a color that's not pure white) makes it smaller, making it closer to black.
+2. If we use Multiply to combine Alpha values, the resulting value will be more translucent than the original values since it will push the values closer to 0, which equates to a higher transparency in terms of alpha values.
+3. The shader gets UV values from data from the 3D mesh and its vertexes. This can be adjusted with UV mapping to change how the textures appear on the model.
+4. Yes, it sounds interesting to me, because this knowledge will allow me to create interesting visual effects through code!
+
+
