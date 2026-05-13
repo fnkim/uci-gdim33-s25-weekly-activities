@@ -78,11 +78,6 @@ Today I accomplished creating a very ugly version of the money making minigame. 
 
 ## W6
 ### Activity 1
-what is NEW in your build since your Milestone 1 submission,
-a link to your Itch page, AND
-your playtesting goal(s).
-Put your playtesting notes in your Devlog.
-
 Since my Milestone 1 submission, I have added animation to the NPC character as well as different game states for the different times of day. [The link is here.](https://fnkim.itch.io/milestone-2-gdim-33) My playtesting goal is mainly about visuals, and I will ask my playtesters to evaluate the art and presentation of the game.
 
 Playtesting notes: The visuals look good, although there is some odd sharp edges on the sprites that could be solved with anti-aliasing. There is also a sliver of the hair that parts from the head during the animation.
