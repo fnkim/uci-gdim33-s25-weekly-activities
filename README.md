@@ -88,4 +88,12 @@ Playtesting notes: The visuals look good, although there is some odd sharp edges
 3. The shader gets UV values from data from the 3D mesh and its vertexes. This can be adjusted with UV mapping to change how the textures appear on the model.
 4. Yes, it sounds interesting to me, because this knowledge will allow me to create interesting visual effects through code!
 
-
+## W7
+### Activity 1
+1. In step 2, the data for the Vertex Color node comes from the vertices of the mesh.
+2. The color is blended at the edges of different regions of color because the planes between the vertices interpolate color, causing the blended effect.
+3. The shiba from step 3 has less detail than the shiba rendered with the texture because vertex color interprets color data through the vertices and blends between areas, whereas mapping textures to UV maps allows detailed images to be used as textures on a mesh. Vertex color is most more useful for things that require procedural effects, for example making shaders.
+4. In step 3, there is a splotch on the left hind leg, meaning the surface normals are probably messed up there.
+5. You could test UV map data using a debug shader in order to see how the UV map has been unwrapped for a mesh. This could be useful to see if there are any issues with mapping a texture onto the mesh.
+6. There is an error in the lighting on the back of the Shiba because the way the Shiba reacts to the light is reversed due to incorrect normal mapping.
+7. We set up the blend mode to additive for the fire effect in Step 5 so that the colors would create a lightening effect on the surroundings rather than being normal overlayed colors, more similar to fire.
