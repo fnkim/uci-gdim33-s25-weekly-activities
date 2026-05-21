@@ -97,3 +97,24 @@ Playtesting notes: The visuals look good, although there is some odd sharp edges
 5. You could test UV map data using a debug shader in order to see how the UV map has been unwrapped for a mesh. This could be useful to see if there are any issues with mapping a texture onto the mesh.
 6. There is an error in the lighting on the back of the Shiba because the way the Shiba reacts to the light is reversed due to incorrect normal mapping.
 7. We set up the blend mode to additive for the fire effect in Step 5 so that the colors would create a lightening effect on the surroundings rather than being normal overlayed colors, more similar to fire.
+
+
+## W8
+### Activity 1
+My build has a bit more dialogue. My playtesting goal was to check for if the dialogue worked okay. https://fnkim.itch.io/milestone-2-gdim-33
+
+
+My playtesters noted that the animation of the character was cool, and the main issue was that there were a couple dialogue name mismatch issues, which should not be too difficult to fix.
+
+### Activity 2
+How are we utilizing the stencil buffer- specifically the Compare Function and Pass/Fail operations for both the Outline and Cel renderer features- in Step (2) to create the outline effect?
+Open the Frame Debugger after finishing Step (2). There’s an inefficiency here. One of the objects in your Scene is drawing almost the exact same thing twice. What is it, and why is it being drawn twice?
+In Step (3), why do we ADD instead of MULTIPLY the results of all the different lighting sections together?
+In Step (4), why does changing the Layer the Shiba is on enable and disable the outline effect? If you’re not sure, look back on Step (4).
+
+
+1. We are utilizing the stencil buffer in Step 2 to create the outline effect by checking if the value is not equal to the information from the stencil. Depending on whether it passes or fails the value check, it will either draw the color or not draw the color. In the stencil check, it either replaces the value (changing it from 0 to 1) when it Passes, or leaves the value as 1 when it fails.
+2. The inifficiency in the Frame Debugger is caused by when the Shiba is being drawn twice. This is happening so that the outline effect works, which can be fixed with GPU instancing and optimization.
+3. In Step 3, we ADD the results of the lighting sections together so that the shadowed section and the lit section are both drawn to the screen in separate sections. Multiply would cause each section to affect the other's color.
+4. In Step 4, changing the layer the Shiba is on enables and disables the outline effect because the outline effect only affects the "Outline" layer. Switching the Shiba's layer to "Default" means the effect does not affect it.
+
