@@ -118,3 +118,15 @@ In Step (4), why does changing the Layer the Shiba is on enable and disable the 
 3. In Step 3, we ADD the results of the lighting sections together so that the shadowed section and the lit section are both drawn to the screen in separate sections. Multiply would cause each section to affect the other's color.
 4. In Step 4, changing the layer the Shiba is on enables and disables the outline effect because the outline effect only affects the "Outline" layer. Switching the Shiba's layer to "Default" means the effect does not affect it.
 
+
+# W9
+### Activity 1
+The game my team chose was Red Dead Redemption 2, particularly during the Dead Eye aiming gameplay.
+<img width="569" height="322" alt="image" src="https://github.com/user-attachments/assets/8d54ae3a-a74c-47c2-aae6-93bc023f85f6" />
+
+1. When the Dead Eye effect is initially activated via a button, there is an effect that affects the full screen, decreasing saturation, adding a vignette effect, and increasing bloom. This would likely be a post-processing effect, with the render effects being applied in a later pass.
+2. During the duration of this effect, aiming at a shootable object/NPC will cause red Xs to appear on the targeted areas. This is likely activated by triggering some kind of animation that displays the symbol at the correct location.
+
+### Activity 2
+<img width="934" height="621" alt="image" src="https://github.com/user-attachments/assets/7f15e4f0-c821-41e7-9bd4-01af85b25896" />
+This is the image of the Shader Graph I am currently working on. One issue I had was trying to figure out how to make the vignette effect flash on the screen. I managed to do this by adding a gradient noise and multiplying it with the texture, inputting a time node to the gradient noise's UV. After multiplying that into the final shader, I was able to creaate an effect that flashes erratically over time on the screen!
