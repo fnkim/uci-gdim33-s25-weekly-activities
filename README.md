@@ -130,3 +130,16 @@ The game my team chose was Red Dead Redemption 2, particularly during the Dead E
 ### Activity 2
 <img width="934" height="621" alt="image" src="https://github.com/user-attachments/assets/7f15e4f0-c821-41e7-9bd4-01af85b25896" />
 This is the image of the Shader Graph I am currently working on. One issue I had was trying to figure out how to make the vignette effect flash on the screen. I managed to do this by adding a gradient noise and multiplying it with the texture, inputting a time node to the gradient noise's UV. After multiplying that into the final shader, I was able to creaate an effect that flashes erratically over time on the screen!
+
+# W10
+### Activity 1
+My build has changed since last time to include new dialogue lines and endings as well as adjusting the screen post-processing effect. [Link](https://fnkim.itch.io/milestone-3-gdim-33)
+
+
+My playtesting goal was to check if the dialogue made sense overall, since a lot of it was placeholder dialogue. I was told that it was still rather coherent. They said everything works well, and the only thing that might need to be adjusted is to make the post-processing effect interactive.
+
+### Activity 2
+My table came up with the planning strategy that you have to start with making a very general list of all the systems your game will need on a higher level. For example, you might need an inventory system, a damage system, and a health system. Then, you should figure out what the different attributes those moving parts will all need in order to function properly. For example, the inventory system might need item collection and item dropping, as well as an inventory limit. You can also break this down even more, making a very specific list of tasks to do. For example, setting up a system in which you can grab items at all. We decided that when you actually break down your idea into specific systems, that is when your scope is revealed. Going from a general, vague vision to knowing specifics makes you realize if your game is way more complex and needs more content than you thought it would. Then, you have to decide whether to scope down or do something else.
+
+### Activity 3
+I improved my project today by making the post-processing effect happen in a flash when a choice is made, adding interactivity, as opposed to how it would appear throughout the entire game before.
